@@ -1,5 +1,5 @@
 # Purpose
-This test aims to combine Submariner and my previous work on a containerized submaster <br />
+This test aims to combine Submariner and my previous work on containerized submasters <br />
 Submariner : https://submariner.io/ <br />
 Previous work : https://github.com/olivierdg2/Kubernetes_submaster
 # First cluster creation
