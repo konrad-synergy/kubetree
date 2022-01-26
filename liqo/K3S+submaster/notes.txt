@@ -1,0 +1,7 @@
+PC master -> laptop slave
+laptop submaster -> laptop docker slave
+-----------
+install liqo on 1st cluster 
+-> problem on both clusters
+1st -> liqo doesn't install completly (some pods are on pending)
+2nd -> metrics-server/traefik/core-dns crash
