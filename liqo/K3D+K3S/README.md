@@ -2,6 +2,11 @@
 kubectl : https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/ <br />
 liqoctl : https://doc.liqo.io/installation/
 # Results
+Liqo starts on both clusters but problems appear at peering step.
+Trying to peer from K3S to K3D leads to access error (container's ip is not reachable)
+Trying to peer from K3D to K3S leads to authentification established and peering stuck in pending
+# TO DO
+Make K3D reachable from outside (Docker HostPort:ContainerPort)
 # Steps
 ## Create K3D cluster
 ### Installation
