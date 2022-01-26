@@ -1,7 +1,18 @@
 PC master -> laptop slave
 laptop submaster -> laptop docker slave
------------
 install liqo on 1st cluster 
 -> problem on both clusters
 1st -> liqo doesn't install completly (some pods are on pending)
 2nd -> metrics-server/traefik/core-dns crash
+---------------------------------
+PC master -> laptop slave
+install liqo on 1st cluster OK
+laptop submaster 
+problem on 1st cluster liqo-capsule-controller-manager -> Liveness probe failed: Get "http://10.42.1.6:10080/healthz": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2nd -> OK
+-> laptop docker slave -> OK
+install liqo on 2nd cluster -> Acees problem to 2nd cluster
+Access to 2nd cluster via dockerized slave -> no access
+Destroy slave -> access moved to submaster but still not work
+GATEWAY ON SAME MACHINE ? (laptop slave and submaster) -> seems that the ghateway port can be configured maybe change it ? 
+same probleme if no slave on 2nd cluster
