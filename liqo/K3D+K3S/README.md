@@ -1,5 +1,5 @@
 # requierements on both clusters
-kubectl : https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/ __
+kubectl : https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/ <br />
 liqoctl : https://doc.liqo.io/installation/
 
 # Create K3D cluster
