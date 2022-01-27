@@ -1,6 +1,6 @@
 # Purpose
 Those tests aim to use Liqo in the Kubetree architecture
-## K3S + K3D
+## K3D + K3S
 Combine a K3S and a K3D cluster. <br />
 Trunk = K3S's master <br />
 Branch = K3S's agent combined with K3D's master <br />
