@@ -29,7 +29,7 @@ liqoctl install k3s --generate-name
 ```
 curl -sfL https://get.k3s.io | sh -
 ```
-### Install liqo on K3S (note: your kubectl must point to your K3D cluster)
+### Install liqo on K3S (note: your kubectl must point to your K3S cluster)
 ```
 liqoctl install k3s --generate-name
 ```
